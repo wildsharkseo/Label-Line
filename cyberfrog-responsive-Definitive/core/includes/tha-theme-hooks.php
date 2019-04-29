@@ -18,9 +18,9 @@
 * GNU General Public License for more details.
 */
 
-/**
- * Define the version of THA support, in case that becomes useful down the road.
- */
+/**
+ * Define the version of THA support, in case that becomes useful down the road.
+ */
 define( 'THA_HOOKS_VERSION', '1.0-draft' );
 
 /** 
@@ -63,7 +63,7 @@ add_theme_support( 'tha_hooks', array(
 	'sidebar',
 	'footer',
 	
-	/**
+	/**
 	 * If/when WordPress Core implements similar methodology, Themes and Plugins
 	 * will be able to check whether the version of THA supplied by the theme
 	 * supports Core hooks.

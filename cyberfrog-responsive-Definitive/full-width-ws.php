@@ -30,6 +30,7 @@ get_header(); ?>
 <?php
 $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 5600,1000 ), false, '' );
 ?>
+<?php /*
 <div id="top-image" style="background: url(<?php echo $src[0]; ?> );">
   <div id="top-image-text">
   <div id="text-box">
@@ -37,6 +38,9 @@ $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 560
     </div>
   </div>
 </div>
+ * 
+ */
+?>
 <div id="wrapper_container">
   <div id="wrapper" class="clearfix">
     <div id="content-full" class="grid col-940">
